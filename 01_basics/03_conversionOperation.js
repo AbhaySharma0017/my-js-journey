@@ -49,6 +49,46 @@ console.log(sumNumber);
 console.log(number);
 console.log(typeof number);
 
+// *************************************Operations**************************************
+
+// let value = 3;
+// let negValue = -value;
+// console.log(negValue);
+// console.log(2+2);
+// console.log(2*2);
+// console.log(2/3);
+// console.log(2%3);
+// console.log(2**3);
+
+let str1 = "Hey";
+let str2 = " Buddy !!";
+let str3 = str1 + str2;
+console.log( str3);
+
+// console.log("1"+2);
+// console.log(2+"1");
+// console.log("1"+"5"+2+2);
+// console.log(2+2+3+"1"+5);
+// console.log("7"+(8+9));
+// console.log(5+3+"6");
+
+// console.log(true);
+// console.log(+true);
+// console.log(+"");
+
+// let count =100;
+// count++;
+// ++count;
+// console.log(count);
+
+let x = 3;
+const y = x++;
+console.log(`x:${x}, y:${y}`);
+
+
+
+
+
 
 
 

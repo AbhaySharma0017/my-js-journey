@@ -53,4 +53,24 @@ function f1(){
 };
 console.log(f1());
 
+// ***************************************************************************************
+
+// Stack(Primitive) and Heap(Stack)
+
+// let mail1 = "abhay0154@gmail.com";
+// let mail2 = mail1;
+// console.log(mail2);
+// mail2 = "abhay.svce@gmail.com"
+// console.log(mail1);
+// console.log(mail2);
+
+let userOne = {
+  name: "Abhay",
+  age: 21
+};
+
+let userTwo = userOne;
+userTwo.name = "Anikesh";
+console.log(userOne.name);
+console.log(userTwo.name);
 

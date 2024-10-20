@@ -20,8 +20,13 @@ console.log(Math.abs(-6)); // only use to convert negative value to positive not
 // console.log(Math.ceil(6.3));
 // console.log(Math.floor(6.3));
 
-console.log(Math.random());
-console.log((Math.random()*10)+1);
+// console.log(Math.random());
+// console.log((Math.random()*10)+1);
+// console.log(Math.floor((Math.random()*10)+1));
+
+const min = 10;
+const max = 20;
+console.log(Math.floor(Math.random()*(max - min+1))+min);
 
 
 
